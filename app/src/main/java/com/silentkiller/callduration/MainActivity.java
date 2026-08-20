@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
             String phNumber = managedCursor.getString(number);
 
-            if (phNumber.equals("+919686857697") || phNumber.equals("9686857697")) {
+            if (phNumber.equals("+91XXXXXXXXXX") || phNumber.equals("XXXXXXXXXX")) {
                 String callType = managedCursor.getString(type);
                 String callDate = managedCursor.getString(date);
                 String callDayTime = new Date(Long.valueOf(callDate)).toString();
